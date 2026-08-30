@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AustinBioLabs develops computational approaches to understand molecular residual disease, drug-tolerant persistence, and cancer evolution." />
+  <meta name="theme-color" content="#07130f" />
+  <title>AustinBioLabs — Residual Disease Intelligence</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="AustinBioLabs home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>AustinBioLabs</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#platform">Platform</a>
+      <a href="#project">EGFR Persist</a>
+      <a href="#methods">Methods</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="mailto:austingeorge123@gmail.com">Collaborate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Residual Disease Intelligence</p>
+        <h1>Understanding what <em>survives</em> cancer therapy.</h1>
+        <p class="hero-lede">AustinBioLabs develops computational approaches to study molecular residual disease, drug-tolerant persistence, and the evolutionary paths that lead to recurrence.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#project">Explore the flagship project</a>
+          <a class="button button-secondary" href="mailto:austingeorge123@gmail.com">Start a collaboration</a>
+        </div>
+        <div class="hero-proof" aria-label="Research focus">
+          <span>Multi-omics</span><span>Functional genomics</span><span>Evolution</span><span>Target discovery</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Therapy to resistance research model">
+        <div class="orbital-card">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="core-dot"></div>
+          <div class="state-label label-therapy">Therapy</div>
+          <div class="state-label label-residual">Residual disease</div>
+          <div class="state-label label-persistence">Persistence</div>
+          <div class="state-label label-resistance">Resistance</div>
+          <div class="state-center"><strong>AustinBioLabs</strong><span>maps the transition</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement band">
+      <div class="section-shell statement-grid">
+        <p class="section-kicker">The problem</p>
+        <h2>Cancer treatment can remove most tumor cells while leaving behind a small population capable of surviving, adapting, and eventually driving relapse.</h2>
+        <p>Residual cells are not necessarily smaller versions of the original tumor. They can occupy distinct transcriptional, regulatory, metabolic, and signaling states that create new dependencies—and potentially new treatment opportunities.</p>
+      </div>
+    </section>
+
+    <section id="research" class="section-shell section-pad">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Research thesis</p>
+        <h2>Move beyond “MRD positive” toward a biological model of residual disease.</h2>
+      </div>
+      <div class="question-grid">
+        <article class="question-card reveal"><span>01</span><h3>What survives?</h3><p>Measure residual tumor burden and identify surviving clones or lineages.</p></article>
+        <article class="question-card reveal"><span>02</span><h3>What state does it enter?</h3><p>Resolve residual-cell transcriptional, chromatin, signaling, and microenvironmental states.</p></article>
+        <article class="question-card reveal"><span>03</span><h3>What does it depend on?</h3><p>Use functional genomics to distinguish state markers from causal survival dependencies.</p></article>
+        <article class="question-card reveal"><span>04</span><h3>How can it be eliminated?</h3><p>Prioritize interventions designed to target the residual state before overt resistance develops.</p></article>
+      </div>
+    </section>
+
+    <section id="platform" class="platform-section section-pad">
+      <div class="section-shell">
+        <div class="section-heading split-heading reveal">
+          <div><p class="section-kicker">Platform direction</p><h2>Residual Disease Intelligence</h2></div>
+          <p>A computational framework that links molecular state, functional dependency, evolutionary trajectory, and therapeutic opportunity.</p>
+        </div>
+        <div class="pipeline reveal" role="img" aria-label="Data sources feed a residual state engine and target discovery outputs">
+          <div class="pipeline-column input-column">
+            <span class="pipe-label">Inputs</span>
+            <div>RNA / scRNA</div><div>ATAC / chromatin</div><div>CRISPR screens</div><div>Tumor genomics</div><div>Longitudinal ctDNA</div>
+          </div>
+          <div class="pipeline-arrow" aria-hidden="true">→</div>
+          <div class="pipeline-engine"><span>Residual State Engine</span><small>state · dependency · evolution</small></div>
+          <div class="pipeline-arrow" aria-hidden="true">→</div>
+          <div class="pipeline-column output-column">
+            <span class="pipe-label">Outputs</span>
+            <div>Residual State Score</div><div>Dependency ranking</div><div>Regulatory circuits</div><div>Resistance hypotheses</div><div>Target prioritization</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="section-shell section-pad project-section">
+      <div class="project-header reveal">
+        <div>
+          <p class="section-kicker">Flagship research program</p>
+          <h2>EGFR Persist</h2>
+        </div>
+        <p>Mapping the osimertinib drug-tolerant persister state in EGFR-mutant non-small-cell lung cancer using public multi-omic and functional-genomics datasets.</p>
+      </div>
+
+      <div class="project-layout">
+        <div class="project-story reveal">
+          <h3>From broad response to a compact residual-state model.</h3>
+          <p>The first analyses integrate RNA-seq, ATAC-seq, H3K27ac, functional annotations, and treatment-state trajectories to separate acute response from established persistence.</p>
+          <div class="state-trajectory" aria-label="Treatment state trajectory">
+            <div><strong>S0</strong><span>Parental</span></div><i>→</i>
+            <div><strong>S1</strong><span>Acute</span></div><i>→</i>
+            <div class="active"><strong>S2</strong><span>Persister</span></div><i>→</i>
+            <div><strong>S3</strong><span>Washout</span></div><i>→</i>
+            <div><strong>S4</strong><span>Recovery</span></div>
+          </div>
+        </div>
+        <div class="metric-grid reveal">
+          <div class="metric"><strong>20</strong><span>compact Core genes in the current public-data model</span></div>
+          <div class="metric"><strong>3</strong><span>therapeutic evidence classes: dependency, state regulation, resensitization</span></div>
+          <div class="metric"><strong>4</strong><span>EGFR-mutant NSCLC model backgrounds in the discovery analysis</span></div>
+          <div class="metric"><strong>1</strong><span>continuous Residual State Score designed for external validation</span></div>
+        </div>
+      </div>
+
+      <div class="findings-grid">
+        <article class="finding reveal"><p class="finding-tag">State</p><h3>Quiescence is active biology.</h3><p>The persister state is characterized by suppression of proliferative E2F/MYC/FOXM1 programs together with broader regulatory remodeling.</p></article>
+        <article class="finding reveal"><p class="finding-tag">Chromatin</p><h3>Persistence is regulatory reprogramming.</h3><p>RNA and accessibility changes indicate that drug tolerance involves a reconstructed gene-regulatory state, not only inhibition of EGFR signaling.</p></article>
+        <article class="finding reveal"><p class="finding-tag">Function</p><h3>Expression is not dependency.</h3><p>The next layer integrates CRISPRn/CRISPRa screens to distinguish resistance drivers, sensitizers, and plausible therapy-pressure survival requirements.</p></article>
+      </div>
+      <p class="research-note reveal">Research displayed here is based on public datasets and computational analyses. It is exploratory research, not a clinical diagnostic or treatment recommendation.</p>
+    </section>
+
+    <section id="methods" class="methods-section section-pad">
+      <div class="section-shell">
+        <div class="section-heading reveal"><p class="section-kicker">Methods</p><h2>Evidence should converge before a target becomes a hypothesis worth testing.</h2></div>
+        <div class="evidence-stack reveal">
+          <div><span>01</span><strong>State specificity</strong><p>Separate established persistence from acute drug response and generic stress.</p></div>
+          <div><span>02</span><strong>Cross-model conservation</strong><p>Require reproducibility across independent EGFR-mutant contexts.</p></div>
+          <div><span>03</span><strong>Regulatory support</strong><p>Connect RNA changes with chromatin accessibility, enhancer activity, and TF programs.</p></div>
+          <div><span>04</span><strong>Functional evidence</strong><p>Integrate CRISPR and perturbation screens rather than equating expression with dependency.</p></div>
+          <div><span>05</span><strong>External validation</strong><p>Test frozen signatures in independent studies, patient-derived systems, and single-cell data.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision band-dark">
+      <div class="section-shell vision-grid reveal">
+        <div><p class="section-kicker">Long-term vision</p><h2>A general map of therapy-induced vulnerabilities.</h2></div>
+        <p>EGFR/osimertinib is the first model system. The broader goal is to learn which residual states recur across targeted therapies, which dependencies are created by treatment, and which interventions can prevent those states from becoming resistant disease.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section-pad about-section">
+      <div class="about-card reveal">
+        <div class="avatar" aria-hidden="true">AG</div>
+        <div>
+          <p class="section-kicker">Founder</p>
+          <h2>Austin George</h2>
+          <p class="role">Computational Biologist</p>
+          <p>AustinBioLabs is an independent research and platform concept focused on computational cancer biology, molecular residual disease, and functional genomics.</p>
+          <a class="text-link" href="mailto:austingeorge123@gmail.com">austingeorge123@gmail.com <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="section-shell cta-card reveal">
+        <p class="section-kicker">Collaborate</p>
+        <h2>Working on residual disease, functional genomics, or targeted therapy?</h2>
+        <p>Academic and translational collaborations are welcome, especially projects involving multi-omic treatment response, CRISPR screens, longitudinal molecular data, and target prioritization.</p>
+        <a class="button button-light" href="mailto:austingeorge123@gmail.com">Contact Austin</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>AustinBioLabs</span></div>
+    <p>Computational research in residual disease, persistence & cancer evolution.</p>
+    <p>© <span id="year"></span> AustinBioLabs</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
