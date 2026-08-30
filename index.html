@@ -24,6 +24,7 @@
       <a href="#research">Research</a>
       <a href="#platform">Platform</a>
       <a href="#project">EGFR Persist</a>
+      <a href="#evidence-map">Evidence Map</a>
       <a href="#methods">Methods</a>
       <a href="#about">About</a>
       <a class="nav-cta" href="mailto:austingeorge123@gmail.com">Collaborate</a>
@@ -137,6 +138,79 @@
         <article class="finding reveal"><p class="finding-tag">Function</p><h3>Expression is not dependency.</h3><p>The next layer integrates CRISPRn/CRISPRa screens to distinguish resistance drivers, sensitizers, and plausible therapy-pressure survival requirements.</p></article>
       </div>
       <p class="research-note reveal">Research displayed here is based on public datasets and computational analyses. It is exploratory research, not a clinical diagnostic or treatment recommendation.</p>
+    </section>
+
+    <section id="evidence-map" class="evidence-map-section section-pad">
+      <div class="section-shell">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="section-kicker">Residual-state atlas</p>
+            <h2>One signature, multiple biological stories.</h2>
+          </div>
+          <p>The compact DTP-Core-20 signature is shown as induced and repressed programs, then connected to selected target hypotheses and pathway shifts across S0-S4.</p>
+        </div>
+
+        <div class="atlas-summary reveal" aria-label="Evidence map summary">
+          <div><strong>20</strong><span>DTP-Core genes</span></div>
+          <div><strong>16,606</strong><span>integrated gene universe</span></div>
+          <div><strong>188</strong><span>pathway programs</span></div>
+          <div><strong>5</strong><span>S-stage states</span></div>
+        </div>
+
+        <div class="atlas-layout reveal">
+          <div class="atlas-gene-index" aria-label="Select a gene or node">
+            <div class="gene-group">
+              <span class="map-label">Core-20 induced</span>
+              <div class="gene-selector" data-group="Core-20 induced"></div>
+            </div>
+            <div class="gene-group">
+              <span class="map-label">Core-20 repressed</span>
+              <div class="gene-selector" data-group="Core-20 repressed"></div>
+            </div>
+            <div class="gene-group">
+              <span class="map-label">Added target nodes</span>
+              <div class="gene-selector" data-group="Additional node"></div>
+            </div>
+          </div>
+
+          <article class="atlas-focus" aria-live="polite">
+            <div class="map-panel-header">
+              <div><span class="map-label">Selected evidence</span><h3 id="gene-title">ICAM1</h3></div>
+              <span id="gene-role" class="map-badge">Surface biomarker</span>
+            </div>
+            <p id="gene-summary" class="map-summary"></p>
+            <div class="stage-color-legend" aria-label="Stage status color legend">
+              <span class="legend-baseline">Baseline</span>
+              <span class="legend-high">High</span>
+              <span class="legend-repressed">Repressed</span>
+              <span class="legend-mixed">Mixed</span>
+            </div>
+            <div id="gene-stage-profile" class="gene-stage-profile" aria-label="Gene presence across S stages"></div>
+            <div class="evidence-grid" id="gene-evidence-grid" aria-label="Gene evidence streams"></div>
+          </article>
+        </div>
+
+        <div class="stage-atlas reveal">
+          <div class="stage-atlas-head">
+            <div>
+              <span class="map-label">Pathway selection by stage</span>
+              <h3 id="stage-title">S2 Persister</h3>
+            </div>
+            <span id="stage-role" class="map-badge">Residual state</span>
+          </div>
+          <div class="stage-selector" aria-label="Select a treatment stage"></div>
+          <div class="pathway-track">
+            <div class="pathway-column">
+              <span class="map-label">Activated programs</span>
+              <div id="pathway-activated" class="pathway-list"></div>
+            </div>
+            <div class="pathway-column">
+              <span class="map-label">Suppressed programs</span>
+              <div id="pathway-suppressed" class="pathway-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="methods" class="methods-section section-pad">
